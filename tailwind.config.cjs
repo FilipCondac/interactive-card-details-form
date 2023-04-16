@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        Grotesk: ['"Space Grotesk"'],
+      },
       colors: {
         bgDark: "#202C36",
         bgLight: "#F2F2F2",
