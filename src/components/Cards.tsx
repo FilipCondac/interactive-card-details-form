@@ -32,7 +32,7 @@ const Cards = () => {
       <div className="float-left m-0 -mr-72 flex-col p-0 text-left mobile:m-auto mobile:w-screen">
         <img
           src={imageSrc}
-          className="mobile:h-72 mobile:w-screen"
+          className="h-screen mobile:h-72 mobile:w-screen"
           alt="background gradient"
         ></img>
       </div>
