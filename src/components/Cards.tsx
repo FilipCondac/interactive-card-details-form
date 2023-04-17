@@ -28,7 +28,7 @@ const Cards = () => {
   };
 
   return (
-    <div className=" flex text-left mobile:flex-col">
+    <div className=" flex text-left mobile:mb-10 mobile:flex-col">
       <div className="float-left m-0 -mr-72 flex-col p-0 text-left mobile:m-auto mobile:w-screen">
         <img
           src={imageSrc}
@@ -37,9 +37,9 @@ const Cards = () => {
         ></img>
       </div>
       <div className=" m-auto flex-col">
-        <div className="z-10 flex mobile:mt-20">
+        <div className="z-10 mt-0 flex">
           <div
-            className="mt-40 h-60 w-cardFrontDesktop rounded-lg p-4 pr-10 shadow-2xl mobile:z-20 mobile:m-auto mobile:-mt-52 mobile:ml-4 mobile:h-44 mobile:w-cardFrontMobile mobile:pr-0"
+            className="h-60 w-cardFrontDesktop rounded-lg p-4 pr-10 shadow-2xl mobile:z-20 mobile:m-auto mobile:-mt-28 mobile:ml-4 mobile:h-44 mobile:w-cardFrontMobile mobile:pr-0"
             style={{
               backgroundImage: `url(${createImageUri(
                 "/images/bg-card-front.png"
