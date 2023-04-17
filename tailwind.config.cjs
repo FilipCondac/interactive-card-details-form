@@ -12,6 +12,13 @@ module.exports = {
         bgLight: "#F2F2F2",
         primaryDark: "#2B3844",
       },
+      screens: {
+        mobile: { max: "1200px" },
+      },
+      width: {
+        cardFrontDesktop: "450px",
+        cardFrontMobile: "290px",
+      },
       animation: {
         // Bounces for a total of 5 seconds
         "bounce-short": "bounce 1s ease-in-out 5",

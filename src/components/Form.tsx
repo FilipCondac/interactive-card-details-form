@@ -154,7 +154,7 @@ const Form = () => {
   };
 
   return (
-    <div className="pr-auto pl-auto m-auto mt-64 flex w-80">
+    <div className="pr-auto pl-auto m-auto mt-64 flex w-80 mobile:mt-20 mobile:flex-col">
       {!formSubmitted ? (
         <form action="" className="w-full">
           {/** Cardholder Name */}
@@ -279,7 +279,7 @@ const Form = () => {
           <button
             type="button"
             onClick={handleReset}
-            className="mt-16 w-full rounded-md bg-violet-900 p-3 text-white"
+            className="mt-16 w-full rounded-md bg-violet-900 p-3 text-white mobile:mb-5"
           >
             Confirm
           </button>

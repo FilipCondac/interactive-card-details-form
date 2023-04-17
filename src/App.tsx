@@ -21,7 +21,7 @@ const App = () => {
   });
 
   return (
-    <main className="flex font-Grotesk">
+    <main className="flex font-Grotesk mobile:flex-col">
       <CreditCardContext.Provider value={{ creditCard, setCreditCard }}>
         <Cards />
         <Form />
